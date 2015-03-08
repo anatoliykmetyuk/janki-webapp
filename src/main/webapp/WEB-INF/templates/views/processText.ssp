@@ -1,0 +1,25 @@
+<form action="/generated.zip" method="POST" class="form-horizontal" id="text-process-form">
+  <div class="control-group">
+    <label class="control-label" for="input">Text to process</label>
+    <textarea name="input" id="input" rows="10"></textarea>
+  </div>
+  <div class="control-group flag">
+    <label class="control-label" for="radicals">Radicals</label>
+    <input type="checkbox" name="radicals" id="radicals" checked/>
+  </div>
+  <div class="control-group flag">
+    <label class="control-label" for="kanji">Kanji</label>
+    <input type="checkbox" name="kanji" id="kanji" checked/>
+  </div>
+  <div class="control-group flag">
+    <label class="control-label" for="vocabulary">Vocabulary</label>
+    <input type="checkbox" name="vocabulary" id="vocabulary" checked/>
+  </div>
+  <div class="control-group flag">
+    <label class="control-label" for="media">Media</label>
+    <input type="checkbox" name="media" id="media" checked/>
+  </div>
+  <div class="form-actions flag">
+    <input type="submit" class="btn btn-primary" value="Generate">
+  </div>
+</form>
