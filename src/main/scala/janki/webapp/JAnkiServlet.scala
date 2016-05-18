@@ -10,6 +10,8 @@ import jorders._
 import jorders.output._
 import org.apache.commons.io.output._
 
+import jentities.util.Implicits._
+
 class JAnkiServlet extends JankiWebappStack {
 
   before() {

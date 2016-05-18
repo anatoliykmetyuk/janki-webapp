@@ -38,6 +38,10 @@ object JankiWebappBuild extends Build {
         "org.apache.commons"     %  "commons-compress" % "1.9",
         "org.scala-lang.modules" %% "scala-xml" % "1.0.3",
         "org.atilika.kuromoji" % "kuromoji" % "0.7.7"
+
+      , "io.github.anki-japan" %% "jentities" % "1.0"
+      , "io.github.anki-japan" %% "jorders"   % "1.0"
+      , "io.github.anki-japan" %% "jtext"     % "1.0"
       ),
       scalateTemplateConfig in Compile <<= (sourceDirectory in Compile){ base =>
         Seq(
